@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Teste</title>
+</head>
+<body>
+
+    <header>
+      <div id="conteudoHeader">
+        <div id="bgImg">
+          <img src="assets/logo.webp" id="logo"></img>
+        </div>
+      <ul>
+        <li>
+          <a href="index.html" class="menu">Home</a>
+        </li>
+        <li>
+          <a href="#" class="menu">Sobre</a>
+        </li>
+        <li>
+          <a href="#" class="menu">Produtos</a>
+        </li>
+        <li>
+            <a href="#" class="menu">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="menu">Documentação</a>
+          </li>
+          
+    </li>
+    </li>
+    </ul>
+      </div>
+    </header>
+    <div id="conteudo">
+      <div id="quadro">
+      <aside id="lateralEsquerda">
+          <h1 id="title">Conquiste a transformação digital da sua empresa!</h1>
+          <p id="p1">
+            Conheça nossos produtos e otimize seu dia a dia de trabalho
+          </p>
+          <div style="margin-top: 20px; padding-left: -10px;">
+            <a href="visualizar.html"><button class="btn" >Solicitar Demo</button></a>
+          </div> 
+          
+      </aside>
+    </div>
+      <aside id="lateralDireita" >
+          <img src="assets/portal.webp" alt="" srcset="">
+      </aside>
+  </div>
+  <div id = 'content'>
+      <h1 id="title2">Otimize o dia da sua empresa</h1>
+      <section>
+        <p id="p2">
+            Automatize processos, obtenha uma gestão de documentos inteligente e organize projetos e tarefas
+          </p>
+          <img id="img" src="assets/produtividade.webp" alt="">
+      </section>
+  </div>
+
+  <div id="divForms">
+    <h2 id="title3">Fique por dentro das novidades assinando nossa Newsletter!</h2>
+    <div>
+        <form id="form1">
+            <div id="name">
+				<label for="nome"> Nome: </label>
+				<input id="nome" type="text" name="nome" onkeyup="validaNome()">
+				<div id="txtNome"></div>
+			</div>
+           
+            <div id="email" style="margin-top:10px ;">
+                <label for="email">Email:</label>
+                <input id="inputEmail" type="email" name="email" onkeyup="validaEmail()"> 
+                <div id="txtEmail"></div>
+            </div>
+            <button id="btnEnviar" type="button" onclick="enviar()"> Enviar </button>
+            </form>
+            
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p id="pFooter">
+        *TOTVS Fluig marca de propriedade da empresa TOTVS S.A. <a href="https://www.totvs.com/"> (www.totvs.com)</a>
+    </p>
+    <p>
+        © 2019 por digte.com.br
+    </p>
+</footer>
+
+<script src="script.js"></script>
+  
+</body>
+</html>

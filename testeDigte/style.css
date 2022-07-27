@@ -1,0 +1,233 @@
+/*Variaveis*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap');
+
+:root {
+    --bodyBG: #F99421;
+    --headerBG: #F1722E;
+}
+
+* {
+    font-family: roboto;
+    margin: 0px;
+}
+
+body {
+    
+    padding-bottom: 60px;
+    background: var(--bodyBG);
+}
+
+html, body {
+    min-height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    background-color: var(--headerBG);
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    padding: 15px 0;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: 1px solid #FFFF;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: white;
+    font-weight: 900;
+    color: #F1722E
+}
+
+#conteudoHeader {
+    padding-top: 20px;
+    margin-left: -60px;
+}
+
+footer {
+    position: absolute;
+    top: 2000px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background: var(--footerBG);
+}
+
+
+li {
+    list-style: none;
+    margin-left: 550px;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-left: -100px;
+    display: inline;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 250px;
+    font-family: Poppins;
+}
+
+#bgImg {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    align-items: center;
+    float: left;
+    height: 125px;
+    width: 125px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+#lateralEsquerda {
+    height: 500px;
+    width: 350px;
+    font-size: 40px;
+}
+
+#quadro {
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+#lateralDireita {
+    height: 500px;
+    width: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#conteudo {
+    width: 100%;
+    height: 19;
+}
+
+
+#title {
+    padding-top: 10px;
+    color: #FFFF;
+    font-weight: 900;
+    text-align: left;
+}
+
+#p1 {
+    text-align: left;
+    margin-top: 30px;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+br {
+    width: 100%;
+    background-color: black;
+    height: 10px;
+}
+
+#content{
+    padding-top: 20px;
+    background-color: #fff;
+    margin-top: 700px;
+}
+
+#title2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 900; 
+}
+
+#p2{
+    text-align: center;
+    font-weight: 900; 
+    font-size: 20px;
+    color: gray;
+}
+
+#img{
+    display: flex;
+    margin: auto;
+}
+
+#divForms{
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    height: 400px;
+}
+
+
+#form1 {
+    margin-left: -500px;
+    margin-top: 180px;
+}
+
+#title3{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 900; 
+    text-align: center;
+    width: 700px;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 16px;
+    width: 350px;
+    height: 50px;
+}
+
+#btnEnviar {
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 130px;
+    background: #F16E2F;
+    border-radius: 4px;
+    border-color: #F16E2F;
+    border-style: solid;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+#btnEnviar:hover {
+    background-color: transparent;
+    color: #F16E2F;
+}
+
+footer{
+    background-color: #ffff;
+}
+#pFooter{
+    text-align: center;
+    margin-top: 250px;
+}
